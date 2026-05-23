@@ -1,4 +1,4 @@
-# 🏥 Maternal Health Risk Prediction Web API
+# Maternal Health Risk Prediction Web API
 
 Aplikasi untuk memprediksi **risiko kesehatan ibu** menggunakan model **Machine Learning Random Forest** yang diintegrasikan dengan **REST API Flask** dan aplikasi web berbasis **HTML, CSS, dan JavaScript**.
 
@@ -10,7 +10,7 @@ Aplikasi untuk memprediksi **risiko kesehatan ibu** menggunakan model **Machine 
 
 ---
 
-## 📌 Deskripsi Project
+## Deskripsi Project
 
 Project ini mengintegrasikan **Machine Learning**, **REST API Flask**, dan **Web Interface** untuk prediksi risiko kesehatan ibu:
 
@@ -22,7 +22,7 @@ Project ini mengintegrasikan **Machine Learning**, **REST API Flask**, dan **Web
 
 ---
 
-## 🔄 Alur Sistem
+## Alur Sistem
 
 ```text
 Google Colab
@@ -42,7 +42,7 @@ Web menampilkan hasil prediksi risiko kesehatan ibu
 
 ---
 
-## 📁 Struktur Folder Project
+## Struktur Folder Project
 
 ```text
 Breast_Cancer_web_api/
@@ -67,7 +67,7 @@ Breast_Cancer_web_api/
 
 ---
 
-## 📖 Deskripsi File & Folder
+## Deskripsi File & Folder
 
 | File/Folder | Keterangan |
 |---|---|
@@ -84,7 +84,7 @@ Breast_Cancer_web_api/
 
 ---
 
-## 📊 Dataset: Maternal Health Risk
+## Dataset: Maternal Health Risk
 
 **Sumber**: Maternal Health Risk Dataset
 
@@ -107,10 +107,12 @@ Breast_Cancer_web_api/
 
 ---
 
-## 🎯 Objektif Project
+## Objektif Project
 
 1. Memahami dataset risiko kesehatan ibu
 2. Membangun classification model menggunakan Random Forest
 3. Evaluasi model dan hyperparameter tuning
 4. Mengintegrasikan model ke REST API
 5. Membuat web interface untuk prediksi interaktif
+
+![alt text](hasil-1.png)

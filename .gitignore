@@ -1,0 +1,27 @@
+# Virtual environment
+venv/
+api/venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment file
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter checkpoint
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node modules (if using npm)
+node_modules/

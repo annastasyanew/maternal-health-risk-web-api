@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Prediksi Risiko Kesehatan Ibu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🏥 Prediksi Risiko Kesehatan Ibu</h1>
+        <p>Masukkan data kesehatan ibu untuk mengetahui tingkat risiko.</p>
+
+        <form id="predictionForm">
+            <label>Usia (tahun)</label>
+            <input type="number" id="Age" required>
+
+            <label>Tekanan Darah Sistolik (mmHg)</label>
+            <input type="number" id="Systolic_BP" required>
+
+            <label>Kadar Gula Darah (mmol/L)</label>
+            <input type="number" step="0.01" id="BS" required>
+
+            <label>Suhu Tubuh (°F)</label>
+            <input type="number" step="0.01" id="Body_Temp" required>
+
+            <label>BMI (Indeks Massa Tubuh)</label>
+            <input type="number" step="0.01" id="BMI" required>
+
+            <label>Detak Jantung (bpm)</label>
+            <input type="number" id="Heart_Rate" required>
+
+            <button type="submit">Prediksi Risiko</button>
+        </form>
+
+        <div id="resultBox" class="result-box">
+            <h2>Hasil Prediksi</h2>
+            <p id="resultText">Hasil akan muncul di sini.</p>
+            <p id="probabilityText"></p>
+            <div id="explanationBox" class="explanation-box" style="display:none;">
+                <h3>📌 Penjelasan Hasil:</h3>
+                <p id="explanationText"></p>
+            </div>
+        </div>
+
+        <div id="disclaimer" class="disclaimer">
+            <p><strong>⚠️ Disclaimer:</strong> Hasil prediksi ini hanya untuk tujuan pembelajaran dan tidak boleh digunakan sebagai diagnosis medis. Silahkan konsultasi dengan tenaga kesehatan profesional untuk diagnosis yang akurat.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
